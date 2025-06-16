@@ -1,9 +1,5 @@
 # SMH MongoDB Server
 
-![NPM Version](https://img.shields.io/npm/v/smh-mongo-mcp-server)
-![NPM Downloads](https://img.shields.io/npm/dm/smh-mongo-mcp-server)
-![NPM License](https://img.shields.io/npm/l/smh-mongo-mcp-server)
-
 A Model Context Protocol (MCP) server that enables LLMs to interact with MongoDB databases. This server provides capabilities for inspecting collection schemas and executing MongoDB operations through a standardized interface.
 
 ## Video Demo
