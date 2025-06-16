@@ -1,0 +1,57 @@
+{
+  "name": "smh-mongo-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for MongoDB connections",
+  "license": "Apache-2.0",
+  "author": "S MUNI HARISH",
+  "type": "module",
+  "private": false,
+  "bin": {
+    "mongodb": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "mcp-evals": "^1.0.18",
+    "mongodb": "^6.17.0",
+    "zod": "^3.25.65"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.7",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "claude",
+    "claude-desktop",
+    "mcp",
+    "mongo",
+    "mongodb",
+    "mongo-mcp",
+    "mongodb-mcp",
+    "model-context-protocol",
+    "llm",
+    "mcp-server",
+    "mcp-protocol",
+    "mcp-connector",
+    "mcp-connector-mongodb",
+    "smh-mongo-mcp-server",
+    "mongo-mcp-server"
+  ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/smuniharish/smh-mongo-mcp-server"
+    },
+    "homepage": "https://github.com/smuniharish/smh-mongo-mcp-server"
+}
