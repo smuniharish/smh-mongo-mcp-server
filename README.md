@@ -8,7 +8,7 @@ A Model Context Protocol (MCP) server that enables LLMs to interact with MongoDB
 
 ## Video Demo
 
-<iframe width="560" height="315" src="https://youtu.be/crt85id2UrU?feature=shared" title="MCP MongoDB Server Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![MCP MongoDB Server Demo](https://img.youtube.com/vi/FI-oE_voCpA/0.jpg)](./demo/demo.mp4)
 
 ## Key Features
 
