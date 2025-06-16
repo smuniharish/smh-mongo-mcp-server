@@ -6,6 +6,10 @@
 
 A Model Context Protocol (MCP) server that enables LLMs to interact with MongoDB databases. This server provides capabilities for inspecting collection schemas and executing MongoDB operations through a standardized interface.
 
+## Video Demo
+
+<iframe width="560" height="315" src="https://youtu.be/crt85id2UrU?feature=shared" title="MCP MongoDB Server Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Key Features
 
 ### Smart ObjectId Handling
